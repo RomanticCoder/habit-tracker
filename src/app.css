@@ -44,3 +44,29 @@ button {
   vertical-align: baseline;
   color: darkred;
 }
+
+/* navbar */
+
+.navbar{
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar span{
+  font-size: 2rem;
+}
+
+.navbar h1{
+  margin:1rem
+}
+
+.navbar .count{
+  background-color: green;
+  border-radius: 50%;
+  line-height: 2rem;
+  width: 2rem;
+  text-align: center;
+  color:white
+}

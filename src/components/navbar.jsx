@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
+import '../app.css';
 
 class Navbar extends Component {
 
     render() {
-        console.log("hi")
         return (
-            <>
-                <p>how are you?</p>
-                <h1>Habit Tracking</h1>
-            </>
+            <nav className="navbar">
+                <span>😋</span>
+                <h1>Habit Traker</h1>
+                <span className='count'>{this.props.totalCount}</span>
+            </nav>
         );
     }
 }
